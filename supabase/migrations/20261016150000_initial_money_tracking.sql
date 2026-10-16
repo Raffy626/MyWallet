@@ -1,6 +1,3 @@
--- DanaKu: initial Supabase schema
--- Apply with Supabase CLI (`supabase db push`) or the Supabase SQL Editor.
-
 create type public.transaction_kind as enum ('income', 'expense');
 create type public.budget_period as enum ('daily', 'monthly', 'yearly');
 create type public.receipt_status as enum ('uploaded', 'processing', 'review', 'saved', 'failed');
